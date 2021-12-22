@@ -2,9 +2,13 @@
 
 ## requisitos:
 
-### .net 
+<a href = "https://dotnet.microsoft.com/en-us/download">
+### <p> .net</p>
+</a>
 
-### vscode
+<a href = "https://code.visualstudio.com/">
+### <p> VsCode</p>
+</a>
 
 ## Para rodar entre na pasta ExemploPOO e pelo terminal digite:
 
