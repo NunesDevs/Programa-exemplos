@@ -1,0 +1,97 @@
+# Mapa do projeto
+
+<!-- AUTO-GENERATED:START -->
+- `CLAUDE.md`
+- `ExemploPOO.sln`
+- `README.md`
+- `.vscode\launch.json`
+- `.vscode\tasks.json`
+- `ExemploPOO\ExemploPOO.csproj`
+- `ExemploPOO\Program.cs`
+- `ExemploPOO\Helper\FileHelper.cs`
+- `ExemploPOO\Interfaces\ICalculadora.cs`
+- `ExemploPOO\Models\Aluno.cs`
+- `ExemploPOO\Models\Calculadora.cs`
+- `ExemploPOO\Models\Computador.cs`
+- `ExemploPOO\Models\Conta.cs`
+- `ExemploPOO\Models\Corrente.cs`
+- `ExemploPOO\Models\Diretor.cs`
+- `ExemploPOO\Models\Pessoa.cs`
+- `ExemploPOO\Models\Professor.cs`
+- `ExemploPOO\Models\Retangulo.cs`
+- `ExemploPOO\obj\ExemploPOO.csproj.nuget.dgspec.json`
+- `ExemploPOO\obj\ExemploPOO.csproj.nuget.g.props`
+- `ExemploPOO\obj\ExemploPOO.csproj.nuget.g.targets`
+- `ExemploPOO\obj\project.assets.json`
+- `ExemploPOO\obj\project.nuget.cache`
+- `ExemploPOO\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs`
+- `ExemploPOO\obj\Debug\net6.0\apphost.exe`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.AssemblyInfo.cs`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.AssemblyInfoInputs.cache`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.assets.cache`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.csproj.AssemblyReference.cache`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.csproj.CoreCompileInputs.cache`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.csproj.FileListAbsolute.txt`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.dll`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.GeneratedMSBuildEditorConfig.editorconfig`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.genruntimeconfig.cache`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.GlobalUsings.g.cs`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.pdb`
+- `ExemploPOO\obj\Debug\net6.0\ref\ExemploPOO.dll`
+- `ExemploPOO\bin\Debug\net6.0\ExemploPOO.deps.json`
+- `ExemploPOO\bin\Debug\net6.0\ExemploPOO.dll`
+- `ExemploPOO\bin\Debug\net6.0\ExemploPOO.exe`
+- `ExemploPOO\bin\Debug\net6.0\ExemploPOO.pdb`
+- `ExemploPOO\bin\Debug\net6.0\ExemploPOO.runtimeconfig.json`
+- `ExemploPOO\bin\Debug\net6.0\ref\ExemploPOO.dll`
+<!-- AUTO-GENERATED:END -->
+
+<!-- JARVIS-AUTO:START -->
+## Estrutura detectada
+- `.env.example`
+- `.gitignore`
+- `AGENTS.md`
+- `CLAUDE.md`
+- `ExemploPOO.sln`
+- `README.md`
+- `.vscode\launch.json`
+- `.vscode\tasks.json`
+- `ExemploPOO\ExemploPOO.csproj`
+- `ExemploPOO\Program.cs`
+- `ExemploPOO\Helper\FileHelper.cs`
+- `ExemploPOO\Interfaces\ICalculadora.cs`
+- `ExemploPOO\Models\Aluno.cs`
+- `ExemploPOO\Models\Calculadora.cs`
+- `ExemploPOO\Models\Computador.cs`
+- `ExemploPOO\Models\Conta.cs`
+- `ExemploPOO\Models\Corrente.cs`
+- `ExemploPOO\Models\Diretor.cs`
+- `ExemploPOO\Models\Pessoa.cs`
+- `ExemploPOO\Models\Professor.cs`
+- `ExemploPOO\Models\Retangulo.cs`
+- `ExemploPOO\obj\ExemploPOO.csproj.nuget.dgspec.json`
+- `ExemploPOO\obj\ExemploPOO.csproj.nuget.g.props`
+- `ExemploPOO\obj\ExemploPOO.csproj.nuget.g.targets`
+- `ExemploPOO\obj\project.assets.json`
+- `ExemploPOO\obj\project.nuget.cache`
+- `ExemploPOO\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs`
+- `ExemploPOO\obj\Debug\net6.0\apphost.exe`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.AssemblyInfo.cs`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.AssemblyInfoInputs.cache`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.assets.cache`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.csproj.AssemblyReference.cache`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.csproj.CoreCompileInputs.cache`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.csproj.FileListAbsolute.txt`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.dll`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.GeneratedMSBuildEditorConfig.editorconfig`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.genruntimeconfig.cache`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.GlobalUsings.g.cs`
+- `ExemploPOO\obj\Debug\net6.0\ExemploPOO.pdb`
+- `ExemploPOO\obj\Debug\net6.0\ref\ExemploPOO.dll`
+- `ExemploPOO\bin\Debug\net6.0\ExemploPOO.deps.json`
+- `ExemploPOO\bin\Debug\net6.0\ExemploPOO.dll`
+- `ExemploPOO\bin\Debug\net6.0\ExemploPOO.exe`
+- `ExemploPOO\bin\Debug\net6.0\ExemploPOO.pdb`
+- `ExemploPOO\bin\Debug\net6.0\ExemploPOO.runtimeconfig.json`
+- `ExemploPOO\bin\Debug\net6.0\ref\ExemploPOO.dll`
+<!-- JARVIS-AUTO:END -->
