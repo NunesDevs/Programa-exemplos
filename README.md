@@ -1,42 +1,35 @@
-# Programa-exemplos
+# Exemplos de orientação a objetos em C#
 
-Exemplos de orientação a objetos em C# com pessoas, contas, cálculos e operações sobre arquivos e diretórios.
+Console didático com herança, polimorfismo, cálculo, conta e operações de arquivos.
 
-## Funcionalidades verificadas
+## Comportamento
 
-- Herança e polimorfismo.
-- Interfaces e calculadora.
-- Modelos de pessoa, aluno, professor e diretor.
-- Listagem, criação e exclusão de diretórios e arquivos.
+- Créditos acumulam saldo e rejeitam valores negativos ou não finitos.
+- Cálculos inteiros detectam overflow; divisão por zero retorna ao menu.
+- Retângulo invalida medidas anteriores quando uma nova tentativa é inválida.
+- Criação de texto preserva arquivos existentes usando `FileMode.CreateNew`.
+- Exclusão limita-se a pastas vazias e exige a palavra APAGAR; caminho é exibido antes da operação.
+- Leitura de números com recuperação e encerramento por EOF; .NET 10 LTS.
 
-## Operação e arquitetura verificadas
+## Executar e validar
 
-ExemploPOO/Program.cs apresenta o menu; Models contém exemplos de domínio, Interfaces os contratos e Helper/FileHelper.cs as operações em disco.
+SDK .NET 10. Use as opções indicadas no menu (`Pessoa`, `Area`, `Calcular`, `Credito`, `Dir`, `Criar`, `Del`, `Arquivo`, `Sair`).
 
-Arquivos principais: `ExemploPOO/Program.cs`, `ExemploPOO/Helper/FileHelper.cs`, `ExemploPOO/Models/Pessoa.cs`.
-
-### Requisitos e execução
-
-SDK .NET compatível com ExemploPOO/ExemploPOO.csproj.
-
-```text
-dotnet build ExemploPOO.sln
+```powershell
+./build.ps1 -Test -Package
 dotnet run --project ExemploPOO/ExemploPOO.csproj
 ```
 
+Os testes usam somente um arquivo temporário criado pela própria suíte e verificam que uma segunda escrita não substitui o conteúdo.
 
+## Limites
 
-### Testes e estado
+A calculadora usa inteiros e divisão inteira. As classes de pessoas são exemplos de herança. Operações de arquivos atuam no caminho informado pelo usuário; use uma pasta de exercícios. Não existe exclusão recursiva no programa.
 
-Não foi identificada uma suíte automatizada específica para os fluxos descritos; valide a execução e os casos de borda antes de publicar.
+## Manutenção e licença
 
-Estado: projeto de estudo/experimental. Deploy ativo não foi confirmado nesta revisão.
+Código autoral licenciado sob a [MIT](LICENSE). Dependências, ferramentas e materiais de terceiros mantêm suas próprias licenças e avisos.
 
-### Limitações conhecidas
+Decisões e continuidade: [PROJECT_MEMORY.md](PROJECT_MEMORY.md).
 
-- As opções Criar, Del e Arquivo modificam o filesystem; utilizar somente diretório temporário de exercício.
-- Nenhuma operação de arquivo foi executada nesta auditoria.
-
-### Licença e manutenção
-
-Nenhum arquivo de licença foi identificado nesta revisão; não foi adicionada uma nova licença. Atualize comandos e limitações quando houver mudança de comportamento.
+A opção Computador informa sistema e processadores lógicos localmente; nome/idade, nota e salário também validam os limites do exercício.

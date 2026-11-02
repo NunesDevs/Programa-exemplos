@@ -4,7 +4,9 @@ namespace ExemploPOO.Models
     {
         public override void Creditar(double valor)
         {
-            base.saldo = valor;
+            if (!double.IsFinite(valor) || valor <= 0 || !double.IsFinite(saldo + valor)) throw new System.ArgumentOutOfRangeException(nameof(valor));
+            saldo += valor;
         }
+        public double Saldo => saldo;
     }
 }

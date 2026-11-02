@@ -11,7 +11,8 @@ namespace ExemploPOO.Models
         private bool valido;
         public void DefinirMedidas(double comprimento, double largura)
         {
-            if(comprimento > 0 && largura > 0)
+            valido = false;
+            if(double.IsFinite(comprimento) && double.IsFinite(largura) && double.IsFinite(comprimento * largura) && comprimento > 0 && largura > 0)
             {
                 this.comprimento = comprimento;
                 this.largura = largura;
@@ -20,7 +21,6 @@ namespace ExemploPOO.Models
                 System.Console.WriteLine("Medidas invalidas");
             }
 
-            
         }
 
         public double ObterArea(){
@@ -31,7 +31,7 @@ namespace ExemploPOO.Models
                 Console.WriteLine("Preencha valores validos");
                 return 0;
             }
-           
+
         }
     }
 }

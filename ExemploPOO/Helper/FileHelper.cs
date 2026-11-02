@@ -34,7 +34,9 @@ namespace ExemploPOO.Helper
 
         public void CriarArquivoTexto(string caminho3, string conteudo)
         {
-            File.WriteAllText(caminho3, conteudo);
+            using var stream = new FileStream(caminho3, FileMode.CreateNew, FileAccess.Write);
+            using var writer = new StreamWriter(stream);
+            writer.Write(conteudo);
         }
-    }    
+    }
 }
